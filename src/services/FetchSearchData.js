@@ -7,7 +7,7 @@ const getSearchInvoiceData=async(resSearchBarData,resSearchPage)=>{
         console.log(resSearchBarData);
         console.log(resSearchPage);
         const limit=20;
-        const API_URL=`http://localhost:8080/1804303/FetchSearchdata?value=${resSearchBarData}&offset=${resSearchPage}&limit=${limit}`;
+        const API_URL=`http://localhost:8080/invoice_management_backend/FetchSearchdata?value=${resSearchBarData}&offset=${resSearchPage}&limit=${limit}`;
         const res=await axios.get(API_URL);
         console.log(res.data);
         store.dispatch(loadSearchData(res.data));

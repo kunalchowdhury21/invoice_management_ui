@@ -215,9 +215,6 @@ const CollectorDashboard = (props) => {
               <Typography className={classes.hellotext3}>
                 WITH LOTS OF LOVE,
               </Typography>
-              <Typography className={classes.hellotext4}>
-                Highradius Illuminati
-              </Typography>
               <Typography className={classes.hellotext2}>
                 THE ILLUMINATI WILL BE THERE WITH YOU ALWAYS...AND WILL HELP YOU
                 WHENEVER YOU ARE STUCK. MAY THE FORCE BE WITH YOU

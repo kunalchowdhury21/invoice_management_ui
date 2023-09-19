@@ -11,7 +11,7 @@ const addInvoiceData=async(c_name,c_no,i_no,i_am,due,notes)=>{
     }
     try{
         console.log(c_name);
-        const API_URL=`http://localhost:8080/1804303/AddData`;
+        const API_URL=`http://localhost:8080/invoice_management_backend/AddData`;
         const res=await axios.post(API_URL,addData);
         console.log("response:",res);
     }

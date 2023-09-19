@@ -7,7 +7,7 @@ const ViewCorrespondanceFetch=async(docidArray)=>{
         i_no:docidArray
     }
     try{
-        const API_URL=`http://localhost:8080/1804303/ViewCorrespondence`;
+        const API_URL=`http://localhost:8080/invoice_management_backend/ViewCorrespondence`;
         const res=await axios.post(API_URL,ViewCorrespondanceData);
         store.dispatch(viewCorr(res.data));
     }

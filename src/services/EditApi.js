@@ -7,7 +7,7 @@ const editInvoiceData=async(docidArray,i_am,notes)=>{
         notes:notes,
     }
     try{
-        const API_URL=`http://localhost:8080/1804303/EditData`;
+        const API_URL=`http://localhost:8080/invoice_management_backend/EditData`;
         const res=await axios.post(API_URL,editData);
         console.log("response:",res);
     }

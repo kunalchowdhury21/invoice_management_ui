@@ -42,9 +42,7 @@ function Footer(props) {
         alignItems: "flex-end"
       }}
     >
-      <Typography style={{ color: 'white' }}>
-        Copyright 2020 Highradius. All Rights Reserved.
-      </Typography>
+      
     </Grid>
   );
 }

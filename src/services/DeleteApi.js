@@ -5,7 +5,7 @@ const deleteInvoiceData=async(docidArray)=>{
         i_no:docidArray,
     }
     try{
-        const API_URL=`http://localhost:8080/1804303/DeleteData`;
+        const API_URL=`http://localhost:8080/invoice_management_backend/DeleteData`;
         const res=await axios.post(API_URL,deleteData);
         console.log("response:",res);
     }
